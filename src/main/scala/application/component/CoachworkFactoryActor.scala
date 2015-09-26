@@ -1,8 +1,8 @@
-package application
+package application.component
 
 import java.util.UUID
 
-
+import application.CarFactoryActor
 import domain.component.Coachwork
 
 import scala.actors.Actor

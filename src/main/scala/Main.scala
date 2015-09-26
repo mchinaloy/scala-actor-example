@@ -1,4 +1,8 @@
+import java.util.Calendar
+
 import application._
+import application.component.{WheelFactoryActor, EngineFactoryActor, CoachworkFactoryActor}
+import application.paint.CarPaintingFactoryActor
 
 object Main extends App {
 
@@ -12,5 +16,8 @@ object Main extends App {
   wheelFactoryActor.start()
   engineFactoryActor.start()
   coachworkFactoryActor.start()
+  carPaintingFactoryActor.start()
+
+  println("System started at: " + Calendar.getInstance().getTime)
 
 }
