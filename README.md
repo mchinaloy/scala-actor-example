@@ -1,4 +1,4 @@
-# ScalaActorExample
+# scala-actor-example
 A short example demonstrating how to use the Scala Actor model for concurrency.
 
 It simulates a Car Factory whereby we have the following:
